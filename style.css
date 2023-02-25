@@ -704,6 +704,12 @@ nav i{
     flex-direction: column;
     gap: 3rem;
   }
+html{
+  overflow-x: hidden;
+}
+  header{
+    height: 100%;
+  }
 
   #project{
     height: 120vh;
@@ -717,9 +723,49 @@ nav i{
     font-size: 2rem;
     padding: 1rem auto;
   }
-
-  img{
-    width: 200px;
+  #about .aboutright img {
+    width: 300px;
     height: 200px;
-  }
+}
+
+.right{
+  width: 300;
+  height: 200;
+}
+
+#about{
+  height: 120vh;
+}
+
+.abouticon i{
+  font-size: 1rem;
+}
+
+#email .rightemail{
+  width: 300px;
+  height: 200px;
+}
+
+#email{
+  padding: 2rem;
+}
+
+#service{
+  height: 120vh;
+}
+
+#project{
+  height: 150vh;
+}
+
+#menudiv{
+  width: 100vw;
+}
+nav{
+  width: 100vw;
+}
+
+nav .scrollnav{
+  padding: 1rem;
+}
  }
