@@ -704,9 +704,7 @@ nav i{
     flex-direction: column;
     gap: 3rem;
   }
-html{
-  overflow-x: hidden;
-}
+
   header{
     height: 100%;
   }
@@ -739,6 +737,7 @@ html{
 
 .abouticon i{
   font-size: 1rem;
+  padding-left: .2rem;
 }
 
 #email .rightemail{
@@ -768,4 +767,5 @@ nav{
 nav .scrollnav{
   padding: 1rem;
 }
+
  }
